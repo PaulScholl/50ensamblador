@@ -1,8 +1,6 @@
-// Instituto Tecnologico de Tijuana
-// Depto de Sistemas y Computacion
-// Ing. Sistemas computacionales
-// Autor: Ibarra Acedo Dominick 
-// Repositorio: 
+// Archivo: 1.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Convertir grados celsius a Farenheit 
 
 .global _start
 
