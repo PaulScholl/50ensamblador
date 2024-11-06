@@ -1,3 +1,7 @@
+// Archivo: 9.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Verificar si un numero es primo
+
 // Programa en ensamblador ARM de 64 bits para verificar si un número fijo es primo
 // Guardar este archivo como primo.s y compilar con:
 // $ as -o primo.o primo.s
