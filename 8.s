@@ -1,3 +1,7 @@
+// Archivo: 8.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Serie de fibonaccio de n término
+
 // Programa en ensamblador ARM de 64 bits para calcular la serie de Fibonacci hasta un número fijo
 // Guardar este archivo como fibonacci.s y compilar con:
 // $ as -o fibonacci.o fibonacci.s
