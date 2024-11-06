@@ -1,3 +1,7 @@
+// Archivo: 5.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Division entre 2 numeros
+
 /*
 C# equivalent code:
 
