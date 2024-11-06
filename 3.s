@@ -1,3 +1,7 @@
+// Archivo: 3.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Restar 2 numeros
+
 /*
 C# equivalent code:
 
