@@ -1,3 +1,7 @@
+// Archivo: 2.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Sumar 2 numeros
+
 /*
 using System;
 class Program
