@@ -1,3 +1,7 @@
+// Archivo: 4.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Multipicar 2 numeros
+
 /*
 C# equivalent code:
 
