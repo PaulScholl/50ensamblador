@@ -5,28 +5,28 @@
 	run1:	1.s
 		as -o 1.o 1.s
 		ld -o 1 1.o
-	run2:
+	run2:	2.s
 		as -o 2.o 2.s
 		ld -o 2 2.o
-	run3:
+	run3:	3.s
 		as -o 3.o 3.s
 		ld -o 3 3.o
-	run4:
+	run4:	4.s
 		as -o 4.o 4.s
 		ld -o 4 4.o
-	run5:
+	run5:	5.s
 		as -o 5.o 5.s
 		ld -o 5 5.o
-	run6:
+	run6:	6.s
 		as -o 6.o 6.s
 		ld -o 6 6.o
-	run7:
+	run7:	p7.s
 		as -o p7.o p7.s
 		ld -o p7 p7.o
-	run8:
+	run8:	8.s
 		as -o 8.o 9.s
 		ld -o 8 9.o
-	run9:
+	run9:	9.s
 		as -o 10.o 10.s
 		ld -o 10 10.o
 	run10:
