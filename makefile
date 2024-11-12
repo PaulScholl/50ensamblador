@@ -25,10 +25,10 @@
 		ld -o p7 p7.o
 	run8:	8.s
 		as -o 8.o 9.s
-		ld -o 8 9.o
+		ld -o 8 8.o
 	run9:	9.s
-		as -o 10.o 10.s
-		ld -o 10 10.o
+		as -o 9.o 9.s
+		ld -o 9 9.o
 	run10:
 	run11:
 	run12:
