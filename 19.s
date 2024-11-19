@@ -1,6 +1,6 @@
 // Archivo: 19.s
 // Autor: Rodriguez Gallardo Alan Paul
-// Objetivo: Multiplicacion de matrices
+// Objetivo: Suma de matrices
 
 //Versión en C# equivalente:
 //using System;
