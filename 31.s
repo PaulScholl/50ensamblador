@@ -1,4 +1,7 @@
-// Programa para calcular el MCM usando la relación MCM = (a × b) / MCD
+// Archivo: 1.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo:Programa para calcular el MCM usando la relación MCM = (a × b) / MCD
+
 // Registros usados:
 // x0: primer número / resultado MCD
 // x1: segundo número
