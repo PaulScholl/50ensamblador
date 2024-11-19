@@ -1,4 +1,6 @@
-// Contar vocales y consonantes
+// Archivo: 25.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Contar vocales y consonantes
 
 /*
 using System;
