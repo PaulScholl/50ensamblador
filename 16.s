@@ -1,3 +1,7 @@
+// Archivo: 16.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Ordenamiento burbuja
+
 //Versión en C# del ordenamiento burbuja:
 //using System;
 //
