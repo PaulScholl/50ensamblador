@@ -1,3 +1,7 @@
+// Archivo: 30.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Maximo comun Divisor (MCD)
+
 //public class Program
 //{
     /// <summary>
