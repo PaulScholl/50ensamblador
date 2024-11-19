@@ -1,4 +1,37 @@
-// Medidor de tiempo de ejecución
+// Archivo: 48.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Medidor de tiempo de ejecución
+
+/* 
+using System;
+using System.Diagnostics;
+
+class MedidorTiempo
+{
+    static void Main()
+    {
+        // Crear una instancia de Stopwatch
+        Stopwatch stopwatch = new Stopwatch();
+
+        // Iniciar el cronómetro
+        stopwatch.Start();
+
+        // El bloque de código cuyo tiempo de ejecución queremos medir
+        Console.WriteLine("Ejecutando tarea...");
+        
+        // Simulación de tarea que tarda 2 segundos
+        System.Threading.Thread.Sleep(2000);  // Simula una tarea que toma 2 segundos
+
+        // Detener el cronómetro
+        stopwatch.Stop();
+
+        // Mostrar el tiempo transcurrido
+        Console.WriteLine($"El tiempo de ejecución fue: {stopwatch.ElapsedMilliseconds} milisegundos");
+    }
+}
+
+*/
+
 .global _start
 .section .text
 
