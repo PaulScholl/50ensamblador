@@ -1,3 +1,7 @@
+// Archivo: 21.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Transposicion de una matriz
+
 //Versión en C# equivalente:
 //using System;
 //
