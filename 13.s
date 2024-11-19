@@ -1,6 +1,6 @@
-// Archivo: 14.s
+// Archivo: 13.s
 // Autor: Rodriguez Gallardo Alan Paul
-// Objetivo: Busqueda lineal
+// Objetivo: Encontrar el minimo en un arreglo
 
 //Versión en C# equivalente:
 //using System;
