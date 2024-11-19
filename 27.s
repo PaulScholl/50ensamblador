@@ -1,4 +1,6 @@
-// Desplazamientos a la izquierda y derecha
+// Archivo: 27.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Desplazamientos a la izquierda y derecha
 
 /*
 using System;
