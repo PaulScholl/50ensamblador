@@ -1,4 +1,52 @@
-// Programa para convertir decimal a binario
+// Archivo: 39.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Programa para convertir decimal a binario
+
+/*
+  using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Conversión de decimal a binario");
+
+        // Solicitar al usuario un número decimal
+        Console.Write("Ingresa un número decimal entero: ");
+        string input = Console.ReadLine();
+
+        // Validar la entrada
+        if (int.TryParse(input, out int numeroDecimal) && numeroDecimal >= 0)
+        {
+            string numeroBinario = ConvertirDecimalABinario(numeroDecimal);
+            Console.WriteLine($"El número decimal {numeroDecimal} en binario es: {numeroBinario}");
+        }
+        else
+        {
+            Console.WriteLine("Entrada no válida. Por favor, ingresa un número decimal entero positivo.");
+        }
+    }
+
+    static string ConvertirDecimalABinario(int numeroDecimal)
+    {
+        if (numeroDecimal == 0)
+        {
+            return "0"; // Caso especial: 0 en binario es "0"
+        }
+
+        string binario = "";
+        while (numeroDecimal > 0)
+        {
+            binario = (numeroDecimal % 2) + binario; // Obtener el bit menos significativo
+            numeroDecimal /= 2; // Dividir el número decimal entre 2
+        }
+
+        return binario;
+    }
+}
+
+*/
+
 .data
     buffer:     .skip 64        // Buffer para almacenar resultado binario
     msg_input:  .asciz "Ingrese un número decimal: "
