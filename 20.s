@@ -1,3 +1,7 @@
+// Archivo: 20.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Multiplicacion de matrices
+
 //using System;
 
 // class MultiplicacionMatrices
