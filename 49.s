@@ -1,4 +1,24 @@
-// Lector de entrada desde teclado
+// Archivo: 49.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Lector de entrada desde teclado
+
+/* 
+using System;
+
+class LectorTeclado
+{
+    static void Main()
+    {
+        // Leer una línea completa de texto
+        Console.Write("Ingresa tu nombre: ");
+        string nombre = Console.ReadLine();
+
+        Console.WriteLine($"Hola, {nombre}!");
+    }
+}
+
+*/
+
 .global _start
 .section .text
 
