@@ -1,3 +1,7 @@
+// Archivo: 6.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Convertir grados celsius a Farenheit 
+
 //// Suma de los N primeros números naturales
 //// Registros utilizados:
 //// X0 - Parámetro N y resultado final
