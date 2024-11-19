@@ -1,3 +1,7 @@
+// Archivo: 12.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Encontrar el maximo en un arreglo
+
 //Versión en C# equivalente:
 //using System;
 //
