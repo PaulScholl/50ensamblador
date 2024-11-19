@@ -1,4 +1,49 @@
+// Archivo: p7.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Factorial de un número
 
+/*
+    using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Calculadora de Factorial");
+
+        // Solicitar al usuario ingresar un número
+        Console.Write("Ingresa un número entero positivo: ");
+        string input = Console.ReadLine();
+
+        // Validar la entrada
+        if (int.TryParse(input, out int numero) && numero >= 0)
+        {
+            // Calcular el factorial
+            long factorial = CalcularFactorial(numero);
+
+            // Mostrar el resultado
+            Console.WriteLine($"El factorial de {numero} es: {factorial}");
+        }
+        else
+        {
+            Console.WriteLine("Entrada no válida. Por favor, ingresa un número entero positivo.");
+        }
+    }
+
+    static long CalcularFactorial(int n)
+    {
+        long resultado = 1;
+
+        for (int i = 1; i <= n; i++)
+        {
+            resultado *= i;
+        }
+
+        return resultado;
+    }
+}
+
+*/
 
 .section .text
     .global _start
