@@ -1,3 +1,7 @@
+// Archivo: 11.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Verificar si una cadena es palindromo
+
 //Versión en C# equivalente:
 //using System;
 //
