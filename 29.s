@@ -1,4 +1,6 @@
-// Contar los bits activados en un número
+// Archivo: 29.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Contar los bits activados en un número
 // (Una eternidad en debugear)
 
 /*
