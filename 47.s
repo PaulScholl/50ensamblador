@@ -1,4 +1,40 @@
-// Detector de desbordamiento en suma
+// Archivo: 47.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Detector de desbordamiento en suma
+
+/* 
+using System;
+
+class DetectorDesbordamiento
+{
+    static void Main()
+    {
+        // Solicitar al usuario que ingrese dos números
+        Console.WriteLine("Ingresa el primer número:");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Ingresa el segundo número:");
+        int num2 = Convert.ToInt32(Console.ReadLine());
+
+        // Detectar si ocurre desbordamiento al sumar los dos números
+        try
+        {
+            checked // Activar comprobación de desbordamiento
+            {
+                int suma = num1 + num2;
+                Console.WriteLine($"El resultado de la suma es: {suma}");
+            }
+        }
+        catch (OverflowException)
+        {
+            Console.WriteLine("Error: Ocurrió un desbordamiento al sumar los números.");
+        }
+    }
+}
+
+*/
+
+
 .global _start
 .section .text
 
