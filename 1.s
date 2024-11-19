@@ -2,7 +2,36 @@
 // Autor: Rodriguez Gallardo Alan Paul
 // Objetivo: Convertir grados celsius a Farenheit 
 
-.global _start
+/*using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Conversor de Celsius a Fahrenheit");
+        
+        // Solicitar al usuario ingresar los grados Celsius
+        Console.Write("Ingresa la temperatura en grados Celsius: ");
+        string input = Console.ReadLine();
+
+        // Validar la entrada
+        if (double.TryParse(input, out double celsius))
+        {
+            // Convertir a Fahrenheit
+            double fahrenheit = (celsius * 9 / 5) + 32;
+
+            // Mostrar el resultado
+            Console.WriteLine($"{celsius}°C equivalen a {fahrenheit}°F.");
+        }
+        else
+        {
+            Console.WriteLine("Entrada no válida. Por favor, ingresa un número.");
+        }
+    }
+}
+*/
+
+
 
 .text
 _start:
