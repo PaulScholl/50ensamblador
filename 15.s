@@ -1,4 +1,8 @@
+// Archivo: 15.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Busqueda binaria
 // Codigo en C#
+
 /*
 using System;
 
