@@ -1,3 +1,7 @@
+// Archivo: 14.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Busqueda lineal
+
 //Versión en C# equivalente:
 //using System;
 //
