@@ -1,4 +1,6 @@
-// Operaciones AND, OR, XOR a nivel de bits
+// Archivo: 26.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Operaciones AND, OR, XOR a nivel de bits
 
 /*
 using System;
