@@ -1,4 +1,38 @@
-// Escritor de archivo
+// Archivo: 50.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Escritor de archivo
+
+/* 
+
+using System;
+using System.IO;
+
+class EscribirEnArchivo
+{
+    static void Main()
+    {
+        // Definir el nombre del archivo
+        string nombreArchivo = "ejemplo.txt";
+
+        // Crear o abrir el archivo para escribir
+        using (StreamWriter escritor = new StreamWriter(nombreArchivo))
+        {
+            // Escribir en el archivo
+            escritor.WriteLine("Hola, esto es un ejemplo de escritura en un archivo.");
+            escritor.WriteLine("Esta es otra línea.");
+
+            // También puedes escribir texto sin salto de línea
+            escritor.Write("Este texto no tiene salto de línea.");
+        }
+
+        // Confirmar que se escribió correctamente
+        Console.WriteLine("El texto ha sido escrito en el archivo.");
+    }
+}
+
+
+*/
+
 .global _start
 .section .text
 
