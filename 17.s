@@ -1,3 +1,7 @@
+// Archivo: 17.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Ordenamiento por seleccion
+
 // using System;
 
 // class SelectionSort
