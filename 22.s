@@ -1,4 +1,4 @@
-// Archivo: 2.s
+// Archivo: 22.s
 // Autor: Rodriguez Gallardo Alan Paul
 // Objetivo: Conversión de ASCII a entero
 
