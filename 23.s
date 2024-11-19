@@ -1,4 +1,6 @@
-// Conversión de entero a ASCII
+//  Archivo: 23.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Conversión de entero a ASCII
 
 /*
 using System;
