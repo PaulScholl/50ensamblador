@@ -1,4 +1,33 @@
-// Programa para convertir hexadecimal a decimal
+// Archivo: 42.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Programa para convertir hexadecimal a decimal
+
+/*
+    using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Solicitar al usuario que ingrese un número hexadecimal
+        Console.WriteLine("Ingresa un número en formato hexadecimal:");
+        string hexInput = Console.ReadLine();
+
+        try
+        {
+            // Convertir el número hexadecimal a decimal
+            int decimalValue = Convert.ToInt32(hexInput, 16);
+            Console.WriteLine($"El valor decimal de {hexInput} es: {decimalValue}");
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("El valor ingresado no es un número hexadecimal válido.");
+        }
+    }
+}
+
+*/
+
 .global _start
 .section .text
 
