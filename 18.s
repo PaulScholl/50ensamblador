@@ -1,3 +1,7 @@
+// Archivo: 18.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Ordenamiento por mezcle (Merge sort)
+
 /*
 using System;
 
