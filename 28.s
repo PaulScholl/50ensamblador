@@ -1,4 +1,6 @@
-// Establecer, borrar y alternar bits
+// Archivo: 28.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Establecer, borrar y alternar bits
 
 /*
 using System;
