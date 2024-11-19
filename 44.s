@@ -29,31 +29,36 @@ class GeneradorAleatorio
 */
 
 .global _start
+
+.section .bss
+seed: .skip 8              // Espacio para la semilla
+rand_number: .skip 8       // Espacio para almacenar el número aleatorio
+
 .section .text
-
 _start:
-    // Inicializar generador
-    mov x19, #12345      // Semilla inicial
-    mov x20, #1103515245 // Multiplicador (constante)
-    mov x21, #12345      // Incremento (constante)
-    mov x22, #10         // Cantidad de números a generar
-    
-generate_loop:
-    // Fórmula: siguiente = (semilla * multiplicador + incremento) & máscara
-    mul x19, x19, x20            // x19 = semilla * multiplicador
-    add x19, x19, x21            // x19 += incremento
-    and x19, x19, #0x7fffffff    // Mantener 31 bits (máscara)
-    
-    // El número aleatorio está en x19
-    
-    // Preparar siguiente iteración
-    sub x22, x22, #1             // Decrementar contador
-    cbnz x22, generate_loop      // Continuar si no hemos terminado
+    // Establecer la semilla
+    ldr x0, =seed
+    mov x1, #159      // Semilla inicial (puedes cambiar este valor)
+    str x1, [x0]            // Guardar semilla en memoria
 
-exit:
-    mov x0, #0
-    mov x8, #93
-    svc #0
+    // Parámetros del generador congruente lineal
+    mov x2, #15        // Constante 'a'
+    mov x3, #101     // Constante 'c'
+    mov x4, #429     // Constante 'm' (2^32)
 
-.section .data
-    // No se necesitan datos
+    // Generar el siguiente número aleatorio
+    ldr x1, =seed           // Cargar la semilla
+    ldr x1, [x1]            // Leer el valor de la semilla
+    mul x5, x1, x2          // x5 = Xₙ * a
+    add x5, x5, x3          // x5 = (Xₙ * a) + c
+    udiv x5, x5, x4          // x5 = (Xₙ * a + c) % m
+    str x5, [x1]            // Guardar el nuevo número en la semilla
+
+    // Guardar el número aleatorio
+    ldr x0, =rand_number    // Dirección para almacenar el número aleatorio
+    str x5, [x0]            // Guardar el número aleatorio
+
+    // Terminar el programa
+    mov x8, #93             // syscall número 93 (exit)
+    mov x0, #0              // código de salida 0
+    svc #0                  // Llamada al sistema
