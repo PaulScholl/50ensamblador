@@ -1,4 +1,6 @@
-// Conversión de ASCII a entero
+// Archivo: 2.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Conversión de ASCII a entero
 
 /*
 using System;
