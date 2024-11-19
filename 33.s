@@ -2,6 +2,7 @@
 // Autor: Rodriguez Gallardo Alan Paul
 // Objetivo: Programa para sumar elementos de un arreglo
 
+/*
 using System;
 
 class Program
@@ -58,7 +59,7 @@ class Program
     }
 }
 
-
+*/
 
 
 // Registros usados:
