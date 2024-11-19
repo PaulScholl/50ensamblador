@@ -1,4 +1,6 @@
-// Calcular la longitud de una cadena
+// Archivo: 24.s
+// Autor: Rodriguez Gallardo Alan Paul
+// Objetivo: Calcular la longitud de una cadena
 
 /*
 using System;
