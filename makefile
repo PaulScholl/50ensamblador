@@ -33,7 +33,7 @@ run10: 10.s
 run11: 11.s
 	as -o 11.o 11.s
 	ld -o 11 11.o
-run12: 12	.s
+run12: 12.s
 	as -o 12.o 12.s
 	ld -o 12 12.o
 run13: 13.s
